@@ -9,10 +9,12 @@
 - test : testify
 - testContainer : testcontainers-go [no mocking]
 
-### Init
+### Init BTS
 
-- tanstack router
-- tailwind css + shadcn/ui
-- biome
-- turbo
-- bun
+- **TypeScript** - For type safety and improved developer experience
+- **TanStack Router** - File-based routing with full type safety
+- **TailwindCSS** - Utility-first CSS for rapid UI development
+- **shadcn/ui** - Reusable UI components
+- **Biome** - Linting and formatting
+- **Turborepo** - Optimized monorepo build system
+- **Bun** - As the JavaScript runtime
