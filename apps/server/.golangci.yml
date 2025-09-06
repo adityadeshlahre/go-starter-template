@@ -69,7 +69,6 @@ linters:
     - spancheck
     - sqlclosecheck
     - stylecheck
-
     - testableexamples
     - testifylint
     - testpackage
