@@ -9,10 +9,8 @@
     "clean": "rimraf dist tsconfig.tsbuildinfo .turbo node_modules"
   },
   "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "default": "./dist/index.js"
-    }
+    ".": "./src/index.ts",
+    "./*": "./src/*.ts"
   },
   "devDependencies": {
     "@types/bun": "latest",

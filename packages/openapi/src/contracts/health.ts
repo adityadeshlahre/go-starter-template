@@ -1,7 +1,7 @@
 import { initContract } from "@ts-rest/core";
 import { z } from "zod";
-import { ZHealthResponse } from "@boilerplate/zod";
-import { getSecurityMetadata } from "@/utils.js";
+import { ZHealthResponse } from "@go-starter-template/zod";
+import { getSecurityMetadata } from "@/src/utils.js";
 
 const c = initContract();
 

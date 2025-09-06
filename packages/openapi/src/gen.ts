@@ -1,6 +1,6 @@
 import fs from "fs";
+import { OpenAPI } from ".";
 
-import { OpenAPI } from "./index.js";
 
 const replaceCustomFileTypesToOpenApiCompatible = (
   jsonString: string

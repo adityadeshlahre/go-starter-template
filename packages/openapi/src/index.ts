@@ -3,8 +3,8 @@ import { z } from "zod";
 
 extendZodWithOpenApi(z);
 import { generateOpenApi } from "@ts-rest/open-api";
+import { apiContract } from "./contracts";
 
-import { apiContract } from "./contracts/index.js";
 
 type SecurityRequirementObject = {
   [key: string]: string[];
